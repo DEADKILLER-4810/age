@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    font-family: "dela gothic one";
+    background-color: #829c9b;
+    color: #333;
+}
+h1{
+    
+    font-size: 2.5rem;
+    margin: 20px;
+}
+
+label{
+    font-size: 1.5rem;
+    margin: 10px;
+}
+
+#birthDate{
+    width: 200px;
+    height: 30px;
+    font-size: 1rem;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    /* height: 100vh; */
+}
+
+.submit{
+    width: 130px;
+    height: 40px;
+    font-size: 1rem;
+    background-color: #2e2e2e;
+    border: none;
+    border-radius: 10px;
+    color: rgb(210, 255, 255);
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+#result{
+    font-size: 1.5rem;
+    margin: 20px;
+    padding: 30px;
+    background-color: #2e2e2e;
+    color: rgb(210, 255, 255);
+    border-radius: 10px;
+}
+
+@media (max-width: 600px) {
+    body {
+        font-size: 0.8rem;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+    label {
+        font-size: 1.2rem;
+    }
+    #birthDate {
+        width: 40%;
+        height: 25px;
+    }
+    .submit {
+        width: 35%;
+        height: 40px;
+    
+    }
+    #result {
+        font-size: 1.2rem;
+        padding: 20px;
+    }
+}
